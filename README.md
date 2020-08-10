@@ -4,6 +4,7 @@ Spec:
 
 
 Leap Years
+
 A simple tool that will tell you whether a year is a leap year, according to the following rules:
 
 All years divisible by 400 ARE leap years (e.g. 2000 was a leap year)
@@ -25,6 +26,25 @@ Acceptance Criteria
 2.4.1 :006 > leap_year?(1500)
  => false
  ```
+
+Approach:
+
+4 types of years:
+
+will return either true or false
+
+return true:
+
+1. divisable by 400
+2. divisable by 4 and not 100
+
+return false:
+
+1. not divisable by 4
+2. divisable by 100 but not 400
+
+
+
 Extension Options
 Write a program that takes a start year and an end year and returns an array of all the leap years between.
 
