@@ -1,4 +1,7 @@
-describe("leapYear?", function(){
+describe("leapYear", function(){
+  it("returns true when given 4", function(){
+    expect(leapYear(4)).toEqual(true)
+  });
 });
 
 
