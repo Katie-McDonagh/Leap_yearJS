@@ -14,6 +14,10 @@ describe("leapYear", function(){
   it("returns false when given 3", function(){
     expect(leapYear(3)).toEqual(false)
   })
+
+  it("returns false when given 1700", function(){
+    expect(leapYear(1700)).toEqual(false)
+  })
 });
 
 
